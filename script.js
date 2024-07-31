@@ -18,3 +18,8 @@ window.onscroll = () => {
         }
     })
 }
+
+menuIcon.onClick = () => {
+    menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+}
