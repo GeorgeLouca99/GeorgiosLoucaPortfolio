@@ -775,6 +775,10 @@ span{
             width: 56vw;
         }
 
+        .service-box{
+            background-color: white;
+        }
+
         .services h2{
             margin-bottom: 3rem;
         }
