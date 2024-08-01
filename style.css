@@ -387,6 +387,58 @@ span{
     line-height: 22px;
 }
 
+/* skills */
+.skills-items{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+
+
+.skills-item{
+    margin-bottom: 40px;
+    width: 40%;
+    position: relative;
+    margin-right: 40px;
+}
+
+.skills-item:last-child{
+    margin-bottom: 0;
+}
+
+
+.skills-content{
+    background-color: var(--bg-color);
+    border: 3px solid var(--main-color);
+    padding: 30px 50px;
+    border-radius: 4rem;
+    box-shadow: 0 0 10px var(--main-color);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.skills-content:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 25px var(--main-color);
+}
+
+.skills-content h3{
+    font-size: 25px;
+    color: white;
+    margin: 0 0 10px;
+    font-weight: 500;
+}
+
+.skills-content p{
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
 ::-webkit-scrollbar{
     width: 15px;
 }
