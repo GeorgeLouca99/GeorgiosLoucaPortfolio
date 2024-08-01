@@ -708,6 +708,19 @@ span{
     .timeline-dot{
         left: 0;
     }
+
+    .skills-items{
+        left: 0;
+    }
+
+    .skills-content h3{
+        font-size: 15px;
+    }
+
+    .skills-content p{
+        font-size: 13px;
+    }
+
     .services{
         padding-bottom: 7rem;
     }
