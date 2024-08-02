@@ -223,7 +223,7 @@ span{
 }
 
 .text-animation span::after{
-    content: "";
+    content: ""; 
     background-color: var(--bg-color);
     position:absolute;
     width: calc(100% + 8px);
@@ -492,10 +492,12 @@ span{
     padding: 5rem 5rem;
 }
 
+
 .service-box h4{
     font-size: 3rem;
     font-weight: 800;
     line-height: 2;
+    position: relative;
 }
 
 .service-info p{
@@ -506,11 +508,26 @@ span{
     margin: auto;
 }
 
+.service-box a:link{
+    color: black;
+}
+
+.service-box a:visited{
+    color: black;
+}
+
 .service-info i{
     font-size: 4.5rem;
     left: 500px;
     top: 40px;
     position: relative;
+}
+
+.base-apparel {
+    background-image: url('baseapparel.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .testimonials{
@@ -713,7 +730,7 @@ span{
         left: 0;
     }
     .skills-items{
-        min-width: 500px;
+        min-width: 700px;
         max-width: 1200px;
         margin: auto;
         display: flex;
@@ -774,9 +791,24 @@ span{
             margin: 5rem 4rem;
         }
 
+        .text-animation span::before{
+            content: "Cyber Security Engineer";
+        }
+
+        .text-animation span::after{
+            content: "";
+            background-color: var(--bg-color);
+            position: absolute;
+        }
+
         .home-content h3{
             font-size: 2.6rem;
         }
+
+        .home-content h3 span{
+            display: block;
+        }
+
         .home-content h1{
             font-size: 8rem;
             margin-top: 3rem;
@@ -797,6 +829,20 @@ span{
 
         .services h2{
             margin-bottom: 3rem;
+        }
+
+        .service-box h4{
+            font-size: 2.5rem;
+            font-weight: 600;
+            line-height: 2;
+        }
+        
+        .service-info p{
+            font-size: 1.6rem;
+            font-weight: 400;
+            max-height: 100px;
+            line-height: 1.7;
+            margin: auto;
         }
 
         .services-container{
