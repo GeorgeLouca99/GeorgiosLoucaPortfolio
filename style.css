@@ -502,7 +502,7 @@ span{
 
 .service-info p{
     font-size: 1.6rem;
-    font-weight: 600;
+    font-weight: 800;
     max-height: 100px;
     line-height: 1.7;
     margin: auto;
@@ -517,17 +517,10 @@ span{
 }
 
 .service-info i{
-    font-size: 4.5rem;
-    left: 500px;
-    top: 40px;
     position: relative;
-}
-
-.base-apparel {
-    background-image: url('baseapparel.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    font-size: 50px;
+    text-align: center;
+    top: 20px;
 }
 
 .testimonials{
@@ -839,7 +832,7 @@ span{
         
         .service-info p{
             font-size: 1.6rem;
-            font-weight: 400;
+            font-weight: 800;
             max-height: 100px;
             line-height: 1.7;
             margin: auto;
